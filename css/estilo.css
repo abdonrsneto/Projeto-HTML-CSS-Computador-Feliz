@@ -1,0 +1,416 @@
+/* geral */
+
+body,
+p,
+h1,
+h2,
+input,
+textarea {
+    margin: 0;
+    font-family: ubuntu;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+
+/*navbar */
+
+#navbar {
+    background-color: #ed1e24;
+    color: white;
+    padding: 0 15px;
+    height: 60px;
+}
+
+#navbar h2,
+#navbar ul,
+#navbar-list li {
+    display: inline-block;
+}
+
+#navbar h2 {
+    margin: 0;
+    line-height: 60px;
+    margin-left: 55px;
+}
+
+#navbar img {
+    height: 45px;
+    transform: rotate(0 deg);
+    position: absolute;
+    top: 10px;
+}
+
+#navbar nav {
+    float: right;
+}
+
+#navbar ul {
+    margin-top: 22px;
+}
+
+#navbar li {
+    margin: 0 10px;
+}
+
+#navbar-list li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#navbar-list li a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+
+/* banner */
+
+#main-banner {
+    height: 60vh;
+    background-image: url('../img/matrix.png');
+    background-size: cover;
+    padding-top: 15vh;
+}
+
+#banner-info {
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    padding: 40px;
+}
+
+#banner-info img {
+    height: 100px;
+    border-radius: 80%;
+    background-color: red;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#banner-info p {
+    background-color: red;
+    font-weight: bold;
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px;
+}
+
+
+/* about */
+
+#about-section {
+    text-align: center;
+    background-color: red;
+    color: #fff;
+    padding-top: 30px;
+    height: 200px;
+}
+
+#about-section h2 {
+    margin-bottom: 20px;
+}
+
+#about-section p {
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 25px;
+}
+
+
+/* skills */
+
+#skills-section {
+    margin-top: -30px;
+    background-color: white;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+#skills-section .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.skills-container {
+    flex: 1 1 1;
+    text-align: center;
+    padding: 60px 25px;
+}
+
+.central {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+.skills-container h3 {
+    color: red;
+    font-size: 20px;
+}
+
+.skills-container img {
+    height: 100px;
+    padding: 15px;
+    margin-bottom: 25px;
+    border-top: 1px solid red;
+    border-left: 1px solid red;
+    border-bottom: 4px solid red;
+    border-right: 4px solid red;
+}
+
+.skills-container .subtitle {
+    font-weight: bold;
+    color: red;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.skills-container p {
+    line-height: 15px;
+}
+
+
+/* jobs */
+
+#jobs-section {
+    text-align: center;
+    padding-top: 50px;
+}
+
+#jobs-section h2 {
+    color: red;
+    margin-bottom: 30px;
+}
+
+#jobs-section p {
+    margin-bottom: 30px;
+}
+
+#jobs-section a {
+    font-weight: bold;
+    color: red;
+}
+
+.job-specific1 {
+    background-image: url(../img/1celular.jpg);
+    text-align: justify;
+    color: #fff;
+    font-size: medium;
+    font-weight: bold;
+    padding-top: 30px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.job-specific2 {
+    background-image: url(../img/1tablet.jpg);
+    text-align: justify;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    padding-top: 30px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.job-specific4 {
+    background-image: url(../img/1datastorage.jpg);
+    text-align: justify;
+    color: yellow;
+    padding-top: 30px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.job-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.job-box {
+    flex: 1 1 200px;
+    margin-left: 25px;
+    margin-right: 25px;
+    height: 200px;
+    background-size: cover;
+    border-right: 2px solid red;
+    border-bottom: 2px solid red;
+}
+
+.proj1 {
+    background-image: url('../img/1celular.jpg');
+}
+
+.proj2 {
+    background-image: url('../img/1tablet.jpg');
+}
+
+.proj3 {
+    background-image: url('../img/1desktop.jpeg');
+}
+
+.proj4 {
+    background-image: url('../img/1datastorage.jpg');
+}
+
+.proj5 {
+    background-image: url('../img/1wireless.jpg');
+}
+
+.proj6 {
+    background-image: url('../img/1cloud.jpg');
+}
+
+.under-construction {
+    background-image: url(../img/emconstrução.JPG);
+    padding-top: 30px;
+    height: 600px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* jobs */
+
+footer {
+    padding: 30px 0;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+footer img {
+    height: 50px;
+    margin-top: 30px 0;
+}
+
+footer p {
+    margin-top: 25px
+}
+
+footer form {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer input,
+footer textarea {
+    border: none;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    width: 100%;
+    display: block;
+}
+
+footer .detail {
+    font-weight: bold;
+}
+
+
+/* responsivo celulares - media query*/
+
+@media(max-width: 450px) {
+    /* html - 18px -> 1rem -> 18px */
+    /* geral */
+    p,
+    input,
+    textarea {
+        font-size: 1.2rem;
+    }
+    /* navbar */
+    #navbar h2 {
+        display: none;
+    }
+    #navbar img {
+        top: 9px;
+    }
+    #navbar ul {
+        margin-top: 1.1rem;
+        /* root element */
+    }
+    /* banner */
+    #main-banner {
+        height: 40vh;
+        padding-top: 5vh;
+        padding-bottom: 10vh;
+    }
+    #banner-info {
+        width: 60%;
+    }
+    #banner-info p {
+        margin: 0;
+        width: auto;
+    }
+    /* about */
+    #about-section {
+        padding: 2rem;
+        height: auto;
+        padding-bottom: 50px;
+    }
+    /* skill */
+    #skills-section {
+        margin-top: -35px;
+        width: 90%;
+    }
+    #skills-section .container {
+        flex-direction: column;
+    }
+    .skills-container h3,
+    .skills-container .subtitle {
+        font-size: 1.3rem;
+    }
+    .skills-container {
+        padding: 25px;
+    }
+    .skills-container .central {
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+    }
+    /* jobs */
+    #job-section h2,
+    #jobs-section p {
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .job-container {
+        flex-direction: column;
+        margin-bottom: 0%;
+    }
+    .job-box {
+        margin-bottom: 2rem;
+        flex: 1 1 300px;
+    }
+    /* footer */
+    footer {
+        padding: 50px 15px;
+    }
+    footer form {
+        width: 80%;
+    }
+    .detail {
+        margin-top: 10 px;
+        display: block;
+    }
+}
